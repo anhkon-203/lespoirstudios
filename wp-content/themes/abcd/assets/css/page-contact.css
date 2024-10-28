@@ -1,0 +1,89 @@
+h1 {
+    color: #000;
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 80px 0
+}
+
+.main-form {
+    width: 100%;
+    max-width: 458px;
+    margin: 0 auto
+}
+
+.wpcf7-form-control {
+    height: 52px;
+    border: none !important;
+    width: 100%;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0 !important;
+    margin-bottom: 24px;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    color: #000;
+    padding: 0 !important
+}
+
+.wpcf7-form-control::-webkit-input-placeholder {
+    color: #000
+}
+
+.wpcf7-form-control:-ms-input-placeholder {
+    color: #000
+}
+
+.wpcf7-form-control::placeholder {
+    color: #000
+}
+
+input.wpcf7-form-control[name="title"] {
+    background-image: url(../images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-right: 15px !important
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    max-width: 238px;
+    margin: 0 auto !important;
+    height: 36px;
+    border: 1px solid #000 !important;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s all;
+    margin-top: 40px !important
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: #fff;
+    color: #000
+}
+
+@media screen and (max-width:767px) {
+    h1 {
+        margin: 30px 0 64px
+    }
+
+    .main-form br {
+        display: none
+    }
+
+    .wpcf7-form-control {
+        max-width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block
+    }
+}
